@@ -12,5 +12,5 @@ function calcWater() {
     const liters = (ounces * 0.0296).toFixed(1);
     const cups = (ounces / 8).toFixed(1);
     const gallons = (ounces / 128).toFixed(2);
-    document.getElementById("output").innerText = `You should drink about ${ounces} oz (${liters} liters) of water daily.`;
+    document.getElementById("output").innerText = `You should drink about ${ounces} oz (${liters} liters) (${cups} cups) of water daily.`;
 }
